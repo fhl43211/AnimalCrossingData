@@ -6,11 +6,9 @@ One may check what critters they haven't caught are availabe right now by combin
 
 Multiple sort methods (id, price high to low, price low to high, and name a to z) are available to critters. 
 
-<img src="Screenshots/Main.png" alt="Main" width="250">
-<img src="Screenshots/Details.png" alt="Details" width="250">
+<img src="Screenshots/Main.png" alt="Main" width="250"><img src="Screenshots/Details.png" alt="Details" width="250">
 
-<img src="Screenshots/ToCatch.png" alt="ToCatch" width="250">
-<img src="Screenshots/Arts.png" alt="Arts" width="250">
+<img src="Screenshots/ToCatch.png" alt="ToCatch" width="250"><img src="Screenshots/Arts.png" alt="Arts" width="250">
 
 ## Credits
 Thanks to https://github.com/alexislours/ACNHAPI for all the data and icons/images.
