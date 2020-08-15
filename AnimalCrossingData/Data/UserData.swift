@@ -18,9 +18,7 @@ class CommonData {
             $0.price > $1.price
         }
         self.arts = Array(artData.values)
-        self.arts.sort {
-            $0.name.nameUSen < $1.name.nameEUen
-        }
+        self.arts.sort{ $0.name.nameUSen.compare($1.name.nameUSen, options: .caseInsensitive) == .orderedAscending }
         self.bugs = Array(bugData.values)
         self.bugs.sort {
             $0.price > $1.price

@@ -17,9 +17,7 @@ enum Sort : String, CaseIterable{
             }
             return collectionCopy
         case .nameAtoZ:
-            collectionCopy.sort{
-                $0.name.nameUSen < $1.name.nameUSen
-            }
+            collectionCopy.sort{ $0.name.nameUSen.compare($1.name.nameUSen, options: .caseInsensitive) == .orderedAscending }
             return collectionCopy
         case .priceHighToLow:
             collectionCopy.sort{
