@@ -3,8 +3,6 @@
 //  AnimalCrossingData
 //
 //  Created by Hongliang Fan on 2020-07-25.
-//  Copyright © 2020 Hongliang Fan. All rights reserved.
-//
 
 import SwiftUI
 

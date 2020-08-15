@@ -2,11 +2,6 @@
 //  SeaCreature.swift
 //  AnimalCrossingData
 
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let seaCreature = try? newJSONDecoder().decode(SeaCreature.self, from: jsonData)
-
 import Foundation
 
 typealias SeaCreatureDict = [String: SeaCreatureInfo]

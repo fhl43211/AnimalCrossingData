@@ -1,10 +1,6 @@
 //
 //  JSONFormatHelper.swift
 //  AnimalCrossingData
-//
-//  Created by Hongliang Fan on 2020-07-11.
-//  Copyright © 2020 Hongliang Fan. All rights reserved.
-//
 
 import Foundation
 import SwiftUI

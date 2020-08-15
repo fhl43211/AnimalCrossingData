@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		198D359124B106AE00417AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D359024B106AE00417AA3 /* AppDelegate.swift */; };
 		198D359324B106AE00417AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D359224B106AE00417AA3 /* SceneDelegate.swift */; };
-		198D359524B106AE00417AA3 /* CreaturesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D359424B106AE00417AA3 /* CreaturesList.swift */; };
+		198D359524B106AE00417AA3 /* CrittersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D359424B106AE00417AA3 /* CrittersList.swift */; };
 		198D359724B106AF00417AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198D359624B106AF00417AA3 /* Assets.xcassets */; };
 		198D359A24B106AF00417AA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198D359924B106AF00417AA3 /* Preview Assets.xcassets */; };
 		198D359D24B106AF00417AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198D359B24B106AF00417AA3 /* LaunchScreen.storyboard */; };
@@ -17,8 +17,8 @@
 		198D35A824B10B0E00417AA3 /* SeaCreature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35A724B10B0E00417AA3 /* SeaCreature.swift */; };
 		198D35AA24B10B7000417AA3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35A924B10B7000417AA3 /* Data.swift */; };
 		198D35AC24B10C3A00417AA3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35AB24B10C3A00417AA3 /* UserData.swift */; };
-		198D35AE24B10F6800417AA3 /* CreatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35AD24B10F6800417AA3 /* CreatureRow.swift */; };
-		198D35B224B11A2000417AA3 /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35B124B11A2000417AA3 /* CreatureDetail.swift */; };
+		198D35AE24B10F6800417AA3 /* CritterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35AD24B10F6800417AA3 /* CritterRow.swift */; };
+		198D35B224B11A2000417AA3 /* CritterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D35B124B11A2000417AA3 /* CritterDetail.swift */; };
 		198D360524B1521000417AA3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 198D360324B1521000417AA3 /* icons */; };
 		198D360624B1521000417AA3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 198D360424B1521000417AA3 /* images */; };
 		19C46E3B24CCB39400495EB6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C46E3A24CCB39400495EB6 /* ButtonView.swift */; };
@@ -38,7 +38,7 @@
 		198D358D24B106AE00417AA3 /* AnimalCrossingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCrossingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		198D359024B106AE00417AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		198D359224B106AE00417AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		198D359424B106AE00417AA3 /* CreaturesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesList.swift; sourceTree = "<group>"; };
+		198D359424B106AE00417AA3 /* CrittersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrittersList.swift; sourceTree = "<group>"; };
 		198D359624B106AF00417AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		198D359924B106AF00417AA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		198D359C24B106AF00417AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +47,8 @@
 		198D35A724B10B0E00417AA3 /* SeaCreature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreature.swift; sourceTree = "<group>"; };
 		198D35A924B10B7000417AA3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		198D35AB24B10C3A00417AA3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		198D35AD24B10F6800417AA3 /* CreatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureRow.swift; sourceTree = "<group>"; };
-		198D35B124B11A2000417AA3 /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
+		198D35AD24B10F6800417AA3 /* CritterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterRow.swift; sourceTree = "<group>"; };
+		198D35B124B11A2000417AA3 /* CritterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterDetail.swift; sourceTree = "<group>"; };
 		198D360324B1521000417AA3 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 		198D360424B1521000417AA3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		19C46E3A24CCB39400495EB6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -146,10 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				19DB548524B2F3630083C2F5 /* TabView.swift */,
-				198D35AD24B10F6800417AA3 /* CreatureRow.swift */,
+				198D35AD24B10F6800417AA3 /* CritterRow.swift */,
 				19DB548124B2EF680083C2F5 /* ArtRow.swift */,
-				198D35B124B11A2000417AA3 /* CreatureDetail.swift */,
-				198D359424B106AE00417AA3 /* CreaturesList.swift */,
+				198D35B124B11A2000417AA3 /* CritterDetail.swift */,
+				198D359424B106AE00417AA3 /* CrittersList.swift */,
 				19DB547F24B2EEA20083C2F5 /* ArtsList.swift */,
 				19C46E3A24CCB39400495EB6 /* ButtonView.swift */,
 			);
@@ -234,17 +234,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				198D35AC24B10C3A00417AA3 /* UserData.swift in Sources */,
-				198D35B224B11A2000417AA3 /* CreatureDetail.swift in Sources */,
+				198D35B224B11A2000417AA3 /* CritterDetail.swift in Sources */,
 				19DB548624B2F3630083C2F5 /* TabView.swift in Sources */,
 				19DB547E24B2ED680083C2F5 /* Art.swift in Sources */,
-				198D35AE24B10F6800417AA3 /* CreatureRow.swift in Sources */,
+				198D35AE24B10F6800417AA3 /* CritterRow.swift in Sources */,
 				198D35A824B10B0E00417AA3 /* SeaCreature.swift in Sources */,
 				19C46E3B24CCB39400495EB6 /* ButtonView.swift in Sources */,
 				19EF538124BADB4600392E32 /* Fish.swift in Sources */,
 				198D35AA24B10B7000417AA3 /* Data.swift in Sources */,
 				198D359124B106AE00417AA3 /* AppDelegate.swift in Sources */,
 				198D359324B106AE00417AA3 /* SceneDelegate.swift in Sources */,
-				198D359524B106AE00417AA3 /* CreaturesList.swift in Sources */,
+				198D359524B106AE00417AA3 /* CrittersList.swift in Sources */,
 				19EF537924BA9C4000392E32 /* JSONFormatHelper.swift in Sources */,
 				19EF537724BA9BDA00392E32 /* Bug.swift in Sources */,
 				19DB548024B2EEA20083C2F5 /* ArtsList.swift in Sources */,

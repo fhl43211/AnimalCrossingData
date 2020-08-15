@@ -3,8 +3,6 @@
 //  AnimalCrossingData
 //
 //  Created by Hongliang Fan on 2020-07-05.
-//  Copyright © 2020 Hongliang Fan. All rights reserved.
-//
 
 import SwiftUI
 
@@ -48,7 +46,7 @@ struct ArtsList: View {
                     }
                 }
             }
-            .navigationBarTitle(Text("Arts"), displayMode: .inline)
+            .navigationBarTitle(Text("Arts"))
         }
         
     }
